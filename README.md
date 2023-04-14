@@ -5,6 +5,7 @@ This project currently in alpha testing, will open source the code soon.
 
 # Installation
 ## PyPi
+https://pypi.org/project/hugegraph-python/
 ```shell
 pip3 install hugegraph-python
 ```
