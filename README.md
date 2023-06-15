@@ -14,8 +14,10 @@ pip3 install hugegraph-python
 release soon
 
 # Examples
+
 ```python
-from hugegraph import PyHugeGraph
+from hugegraph.connection import PyHugeGraph
+
 # init client
 client = PyHugeGraph("127.0.0.1", "8080", user="admin", pwd="pwd", graph="hugegraph")
 
@@ -27,6 +29,16 @@ schema.getVertexLabels()
 g = client.graph()
 g.getVertexById("1:tom")
 g.close()
+
+# gremlin
+gremlin = client.gremlin()
+gremlin.exec("g.V().limit(10)")
 ```
 
 Any questions contact [ming@apache.org](ming@apache.org)
+
+- TODO
+    - document
+    - ut
+    - ci
+    - more api
