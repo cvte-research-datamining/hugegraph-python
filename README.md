@@ -1,3 +1,4 @@
+> ⚠️⚠️ This repo is archived and the open source code have been contributed to [**apache hugegraph-ai**](https://github.com/apache/incubator-hugegraph-ai/tree/main/hugegraph-python-client) . Welcome to contribute ~
 # hugegraph-python
 A Python SDK for Apache HugeGraph, maintained by [cvte research data-mining team](https://github.com/cvte-research-datamining/hugegraph-python).
 
